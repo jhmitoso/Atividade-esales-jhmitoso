@@ -32,3 +32,7 @@ app.get('/erro', (req, res) => {
 });
 
 //5
+
+app.get('/inicio', (req, res) => {
+  res.redirect('/')
+});
