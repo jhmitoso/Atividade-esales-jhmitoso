@@ -24,3 +24,11 @@ app.get('/contato', (req, res) => {
   telefone: "(81) 99999-9999"
 });
 });
+
+//4
+
+app.get('/erro', (req, res) => {
+  res.status(404).send('Página não encontrada');
+});
+
+//5
