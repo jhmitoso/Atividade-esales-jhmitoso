@@ -43,3 +43,9 @@ var id = 15
 app.get('/usuario/:id', (req, res) => {
   res.send('usuario: '+ req.params.id);
 });
+
+//7
+
+app.get('/produtos/:nome', (req, res) => {
+  res.send('produto: '+ req.params.nome);
+});
