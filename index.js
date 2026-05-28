@@ -15,3 +15,12 @@ app.listen(
 app.get('/sobre', (req, res) => {
   res.send('mensagem');
 });
+
+//3
+
+app.get('/contato', (req, res) => {
+  res.json({
+  email: "contato@email.com",
+  telefone: "(81) 99999-9999"
+});
+});
